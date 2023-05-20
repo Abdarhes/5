@@ -150,13 +150,15 @@ li:nth-child(4) {
 }
 
 button {
+	color: #e8e8e8;
 	margin-top: 137px;
 	margin-left: 25px;
 	width: 199px;
 	height: 44px;
 	text-align: center;
 	text-transform: uppercase;
-	background: url(../img/shape_2_9.png) 90% 50% no-repeat #76B9B5
+	background: url(../img/shape_2_9.png) 90% 50% no-repeat #76B9B5;
+	border-radius: 35px;
 }
 
 input {
@@ -191,6 +193,7 @@ button:hover {
 }
 
 button:active {
+	border-radius: 35px;
 	background: url(../img/shape_2_9.png) 90% 50% no-repeat #818181;
 	box-shadow: 0px 6px 40px 0px rgba(128, 183, 179, 0.54);
 }
